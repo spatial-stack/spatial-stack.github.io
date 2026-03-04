@@ -56,6 +56,10 @@ body {
     text-wrap: balance;
 }
 
+.brand-highlight {
+  color: #0f766e;
+}
+
 .publication-authors {
     font-family: 'Noto Sans', sans-serif;
 }
