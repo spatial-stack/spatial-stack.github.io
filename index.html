@@ -164,31 +164,39 @@
                 </tr>
               </thead>
               <tbody>
-                <tr><td>LongVILA-8B</td><td>14</td><td>21.6</td><td>29.1</td><td>9.1</td><td>16.7</td><td>0.0</td><td>29.6</td><td>30.7</td><td>32.5</td><td>25.5</td></tr>
-                <tr><td>Qwen2.5-VL-3B</td><td>13</td><td>28.7</td><td>33.1</td><td>19.4</td><td>17.4</td><td>24.8</td><td>37.3</td><td>44.3</td><td>31.4</td><td>22.0</td></tr>
-                <tr><td>VILA-1.5-8B</td><td>12</td><td>28.9</td><td>17.4</td><td>21.8</td><td>50.3</td><td>18.8</td><td>32.1</td><td>34.8</td><td>31.0</td><td>24.8</td></tr>
-                <tr><td>LongVA-7B</td><td>11</td><td>29.2</td><td>38.0</td><td>16.6</td><td>38.9</td><td>22.2</td><td>33.1</td><td>43.3</td><td>25.4</td><td>15.7</td></tr>
-                <tr><td>Qwen2.5-VL-7B</td><td>10</td><td>29.2</td><td>25.2</td><td>10.9</td><td>35.8</td><td>29.2</td><td>38.7</td><td>37.5</td><td>29.4</td><td>26.7</td></tr>
-                <tr><td>VILA-1.5-40B</td><td>9</td><td>31.2</td><td>22.4</td><td>24.8</td><td>48.7</td><td>22.7</td><td>40.5</td><td>25.7</td><td>31.5</td><td>32.9</td></tr>
-                <tr><td>LLaVA-OneVision-7B</td><td>8</td><td>32.4</td><td>47.7</td><td>20.2</td><td>47.4</td><td>12.3</td><td>42.5</td><td>35.2</td><td>29.4</td><td>24.4</td></tr>
-                <tr><td>LLaVA-Video-7B</td><td>7</td><td>35.6</td><td>48.5</td><td>14.0</td><td>47.8</td><td>24.2</td><td>43.5</td><td>42.4</td><td>34.0</td><td>30.6</td></tr>
-                <tr><td>LLaVA-OneVision-72B</td><td>6</td><td>40.2</td><td>43.5</td><td>23.9</td><td>57.6</td><td>37.5</td><td>42.5</td><td>39.9</td><td>32.5</td><td>44.6</td></tr>
-                <tr><td>LLaVA-Video-72B</td><td>5</td><td>40.9</td><td>48.9</td><td>22.8</td><td>57.4</td><td>35.3</td><td>42.4</td><td>36.7</td><td>35.0</td><td>48.6</td></tr>
-                <tr><td>Spatial-MLLM-4B</td><td>4</td><td>47.0</td><td>65.3</td><td>34.8</td><td>63.1</td><td>45.1</td><td>41.3</td><td>46.2</td><td>33.5</td><td>46.3</td></tr>
-                <tr><td>VG-LLM-4B</td><td>3</td><td>47.3</td><td>66.0</td><td>37.8</td><td>55.2</td><td>59.2</td><td>44.6</td><td>45.6</td><td>33.5</td><td>36.4</td></tr>
-                <tr><td>Cambrian-S-3B</td><td>2</td><td>57.3</td><td><strong>70.7</strong></td><td>40.6</td><td><strong>68.0</strong></td><td>46.3</td><td><strong>64.8</strong></td><td>61.9</td><td>27.3</td><td>78.8</td></tr>
-                <tr class="has-background-link-light"><td>SpatialStack-4B</td><td>1</td><td><strong>60.9</strong></td><td>69.2</td><td><strong>45.4</strong></td><td>63.0</td><td><strong>63.2</strong></td><td>57.9</td><td><strong>68.4</strong></td><td><strong>40.2</strong></td><td><strong>79.6</strong></td></tr>
+                <tr><td colspan="11"><em>Baseline</em></td></tr>
+                <tr><td>Chance Level (Random)</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>25.0</td><td>36.1</td><td>28.3</td><td>25.0</td></tr>
+                <tr><td>Chance Level (Frequency)</td><td>-</td><td>34.0</td><td>62.1</td><td>32.0</td><td>29.9</td><td>33.1</td><td>25.1</td><td>47.9</td><td>28.4</td><td>25.2</td></tr>
+                <tr><td colspan="11"><em>Proprietary Models (API)</em></td></tr>
+                <tr><td>GPT-4o</td><td>2</td><td>34.0</td><td>46.2</td><td>5.3</td><td>43.8</td><td>38.2</td><td>37.0</td><td>41.3</td><td>31.5</td><td>28.5</td></tr>
+                <tr><td>Gemini-2.5 Pro</td><td>1</td><td>51.5</td><td>43.8</td><td>34.9</td><td>64.3</td><td>42.8</td><td>61.1</td><td>47.8</td><td>45.9</td><td>71.3</td></tr>
+                <tr><td colspan="11"><em>Open-source Models</em></td></tr>
+                <tr><td>LongVILA-8B</td><td>15</td><td>21.6</td><td>29.1</td><td>9.1</td><td>16.7</td><td>0.0</td><td>29.6</td><td>30.7</td><td>32.5</td><td>25.5</td></tr>
+                <tr><td>Qwen2.5-VL-3B</td><td>14</td><td>28.7</td><td>33.1</td><td>19.4</td><td>17.4</td><td>24.8</td><td>37.3</td><td>44.3</td><td>31.4</td><td>22.0</td></tr>
+                <tr><td>VILA-1.5-8B</td><td>13</td><td>28.9</td><td>17.4</td><td>21.8</td><td>50.3</td><td>18.8</td><td>32.1</td><td>34.8</td><td>31.0</td><td>24.8</td></tr>
+                <tr><td>LongVA-7B</td><td>12</td><td>29.2</td><td>38.0</td><td>16.6</td><td>38.9</td><td>22.2</td><td>33.1</td><td>43.3</td><td>25.4</td><td>15.7</td></tr>
+                <tr><td>VILA-1.5-40B</td><td>11</td><td>31.2</td><td>22.4</td><td>24.8</td><td>48.7</td><td>22.7</td><td>40.5</td><td>25.7</td><td>31.5</td><td>32.9</td></tr>
+                <tr><td>LLaVA-OneVision-7B</td><td>10</td><td>32.4</td><td>47.7</td><td>20.2</td><td>47.4</td><td>12.3</td><td>42.5</td><td>35.2</td><td>29.4</td><td>24.4</td></tr>
+                <tr><td>LLaVA-Video-7B</td><td>9</td><td>35.6</td><td>48.5</td><td>14.0</td><td>47.8</td><td>24.2</td><td>43.5</td><td>42.4</td><td>34.0</td><td>30.6</td></tr>
+                <tr><td>LLaVA-OneVision-72B</td><td>8</td><td>40.2</td><td>43.5</td><td>23.9</td><td>57.6</td><td>37.5</td><td>42.5</td><td>39.9</td><td>32.5</td><td>44.6</td></tr>
+                <tr><td>LLaVA-Video-72B</td><td>7</td><td>40.9</td><td>48.9</td><td>22.8</td><td>57.4</td><td>35.3</td><td>42.4</td><td>36.7</td><td>35.0</td><td>48.6</td></tr>
+                <tr><td>Spatial-MLLM-4B</td><td>6</td><td>47.0</td><td>65.3</td><td>34.8</td><td>63.1</td><td>45.1</td><td>41.3</td><td>46.2</td><td>33.5</td><td>46.3</td></tr>
+                <tr><td>VG-LLM-4B</td><td>5</td><td>47.3</td><td>66.0</td><td>37.8</td><td>55.2</td><td>59.2</td><td>44.6</td><td>45.6</td><td>33.5</td><td>36.4</td></tr>
+                <tr><td>Qwen3.5-4B</td><td>4</td><td>53.6</td><td>56.5</td><td>36.5</td><td>67.5</td><td>53.8</td><td>60.3</td><td>57.5</td><td>34.0</td><td>62.3</td></tr>
+                <tr><td>Cambrian-S-3B</td><td>3</td><td>57.3</td><td>70.7</td><td>40.6</td><td>68.0</td><td>46.3</td><td>64.8</td><td>61.9</td><td>27.3</td><td>78.8</td></tr>
+                <tr class="has-background-link-light"><td>SpatialStack-4B (Qwen2.5)</td><td>2</td><td>60.9</td><td>69.2</td><td>45.4</td><td>63.0</td><td>63.2</td><td>57.9</td><td>68.4</td><td>40.2</td><td>79.6</td></tr>
+                <tr class="has-background-warning-light"><td><strong>SpatialStack-5B (Qwen3.5)</strong></td><td><strong>1</strong></td><td><strong>67.5</strong></td><td><strong>71.0</strong></td><td><strong>55.6</strong></td><td><strong>69.1</strong></td><td><strong>68.2</strong></td><td><strong>67.3</strong></td><td><strong>84.1</strong></td><td><strong>41.2</strong></td><td><strong>83.5</strong></td></tr>
               </tbody>
             </table>
           </div>
           <p class="has-text-centered is-italic mt-2">
-            <strong>VSI-Bench leaderboard.</strong> SpatialStack-4B reaches the top open-source average (60.9) and leads most sub-tasks.
+            <strong>VSI-Bench leaderboard.</strong> SpatialStack-5B reaches the top open-source average (67.5) and leads every benchmark category.
           </p>
         </div>
       </div>
     </div>
     <p class="has-text-justified mt-4">
-      VSI-Bench spans more than 5,000 egocentric QA pairs across eight categories: four numerical tasks (object count, absolute distance, object size, room size) and four multiple-choice tasks (relative distance, relative direction, route planning, appearance order). Despite having no route-planning supervision, SpatialStack generalizes strongly to that category while remaining competitive on the rest of the benchmark.
+      VSI-Bench spans more than 5,000 egocentric QA pairs across eight categories: four numerical tasks (object count, absolute distance, object size, room size) and four multiple-choice tasks (relative distance, relative direction, route planning, appearance order). Built on Qwen3.5, SpatialStack-5B improves over both Qwen3.5-4B and prior dual-encoder baselines, setting a new open-source state of the art across the full benchmark.
     </p>
   </div>
 </section>
@@ -217,21 +225,19 @@
             <tr><td>SAT-LLaVA-Video-7B</td><td>73.0</td><td>83.8</td><td>78.4</td></tr>
             <tr><td>SPAR-8B</td><td>72.3</td><td>89.1</td><td>80.7</td></tr>
             <tr><td>Qwen2.5-VL-3B</td><td>67.9</td><td>70.4</td><td>69.2</td></tr>
-            <tr><td>Qwen2.5-VL-7B</td><td>73.9</td><td>80.9</td><td>77.4</td></tr>
-            <tr><td>Cambrian-S-7B</td><td>74.3</td><td>83.0</td><td>78.7</td></tr>
-            <tr><td>Cambrian-S-3B</td><td><strong>76.1</strong></td><td>76.3</td><td>76.2</td></tr>
+            <tr><td><strong>Qwen3.5-4B</strong></td><td><strong>79.7</strong></td><td>90.2</td><td>85.0</td></tr>
+            <tr><td>Cambrian-S-3B</td><td>76.1</td><td>76.3</td><td>76.2</td></tr>
             <tr><td colspan="4"><em>Dual-Encoder MLLMs</em></td></tr>
             <tr><td>VG-LLM-4B</td><td>71.3</td><td>87.7</td><td>79.5</td></tr>
-            <tr><td>VG-LLM-8B</td><td>72.2</td><td><strong>91.1</strong></td><td>81.7</td></tr>
-            <tr><td>SpatialStack-4B</td><td>75.4</td><td>87.0</td><td>81.2</td></tr>
-            <tr><td>SpatialStack-8B</td><td><strong>76.1</strong></td><td>90.8</td><td><strong>83.5</strong></td></tr>
+            <tr><td>SpatialStack-4B (Qwen2.5)</td><td>75.4</td><td>87.0</td><td>81.2</td></tr>
+            <tr class="has-background-warning-light"><td><strong>SpatialStack-5B (Qwen3.5)</strong></td><td>78.9</td><td><strong>92.2</strong></td><td><strong>85.5</strong></td></tr>
           </tbody>
         </table>
       </div>
-      <p class="has-text-centered is-italic mt-2"><strong>CV-Bench leaderboard.</strong> SpatialStack-4B and -8B outperform existing dual-encoder baselines across splits.</p>
+      <p class="has-text-centered is-italic mt-2"><strong>CV-Bench leaderboard.</strong> SpatialStack-5B sets the strongest reported average (85.5) and best 3D score (92.2) among compared models.</p>
     </div>
     <p class="has-text-justified mt-4">
-      CV-Bench reformulates classical 2D relation/counting tasks and 3D depth/distance questions into QA evaluations. SpatialStack-4B already overtakes VG-LLM-4B on both splits, while SpatialStack-8B delivers the best overall accuracy (83.5) and matches the strongest reported 2D score.
+      CV-Bench reformulates classical 2D relation/counting tasks and 3D depth/distance questions into QA evaluations. Built on Qwen3.5, SpatialStack-5B outperforms its base model as well as prior dual-encoder baselines, delivering the best overall accuracy (85.5) and strongest 3D result (92.2).
     </p>
   </div>
 </section>
