@@ -28,6 +28,26 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.overview-video-section {
+  padding-top: 0.5rem;
+}
+
+.video-card {
+  overflow: hidden;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(15, 118, 110, 0.08), rgba(37, 99, 235, 0.06));
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+  padding: 1rem;
+}
+
+.overview-video-player {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+  background: #020617;
+}
+
 
 .publication-banner {
   max-height: parent;
